@@ -1,5 +1,5 @@
 # Turtle Trading System in Python
-The Turtle Trading System is a popular trading strategy that was originally taught by Richard Dennis and William Eckhardt to a group of traders in the 1980s. The strategy is based on a set of rules for entering and exiting trades, using a combination of price action and trend-following indicators. This python code implements the Turtle Trading System for stocks using pandas, numpy, and matplotlib libraries.
+The Turtle Trading System is a popular trading strategy that was originally taught by Richard Dennis and William Eckhardt to a group of traders in the 1980s. The strategy is based on a set of rules for entering and exiting trades, using a combination of price action and trend-following indicators. This python code implements the Turtle Trading System for stocks using pandas, numpy, and matplotlib libraries with yfinance to grab data from Yahoo.
 
 ## Installation
 1. Clone the repository or download the ZIP file.
