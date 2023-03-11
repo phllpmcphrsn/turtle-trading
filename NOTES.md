@@ -1,0 +1,2 @@
+## 3/11/23
+Need to figure out `button.on_click` situation. It looks like the callback function needs to call another function instead of taking in an argument. Also,I may need to use a global TurtleProperties object instead of passing one into the callback function. It seems to be possible to use `functools.partial` to get the job done, but that may be a bit of an "ugly" workaround

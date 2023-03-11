@@ -62,5 +62,3 @@ print("Final Portfolio Value: ${:.2f}".format(portfolio["total"].iloc[-1]))
 # indicates how much return an investor is receiving for each fractional_equity of risk taken
 print("Sharpe Ratio: {:.2f}".format((portfolio["returns"].mean() / portfolio["returns"].std()) * np.sqrt(252)))
 data['ATR'].ewm
-
-
